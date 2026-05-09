@@ -1,0 +1,99 @@
+# Byte-compiled / cache
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Distribution / packaging
+.Python
+build/
+dist/
+*.egg-info/
+.eggs/
+
+# Virtual environment
+# (venv folder-ஐ git-ல் upload பண்ண வேண்டாம்)
+venv/
+env/
+ENV/
+.venv/
+.env/
+
+# Environment variables
+.env
+.envrc
+*.env
+
+# Kaggle API credentials
+# (IMPORTANT: Never commit your Kaggle key!)
+kaggle.json
+~/.kaggle/
+
+# Trained model files (can be large — optional to exclude)
+# Remove the next 2 lines if you WANT to commit models to Git
+models/*.h5
+models/*.keras
+
+# Dataset (usually too large for Git)
+data/
+dataset/
+
+# Results / outputs
+results/
+outputs/
+
+# Streamlit secrets
+.streamlit/secrets.toml
+
+# TensorBoard logs
+logs/
+runs/
+
+# Jupyter Notebooks checkpoints
+.ipynb_checkpoints/
+*.ipynb
+
+# IDE / Editor folders
+.idea/
+.vscode/
+*.swp
+*.swo
+*~
+
+# macOS system files
+.DS_Store
+.AppleDouble
+.LSOverride
+Icon
+._*
+.Spotlight-V100
+.Trashes
+
+# Windows system files
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+
+# Linux
+*~
+
+# Coverage reports
+htmlcov/
+.coverage
+.coverage.*
+coverage.xml
+
+# pytest
+.pytest_cache/
+.cache/
+
+# Type stubs
+*.pyi
+
+# Compiled extensions
+*.so
+*.pyd
+
+# Misc
+*.log
+*.tmp
+*.bak
